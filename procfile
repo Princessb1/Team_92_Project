@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gurnicorn mooV-website.wsgi --log-files
+web: gunicorn mooV-website.wsgi --log-files
